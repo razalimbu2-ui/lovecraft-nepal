@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#be185d">
+<title>LoveCraft Nepal — Make a moment special</title>
+<meta name="description" content="Create beautiful birthday, love, apology, anniversary and friendship cards with LoveCraft Nepal.">
+<style>
+:root{--pink:#ec4899;--deep:#9d174d;--ink:#35152a;--muted:#79566a;--paper:#fffafd;--line:#f5cfe0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:linear-gradient(180deg,#fff4fa 0%,#fffafd 45%,#fff 100%)}button,input,textarea,select{font:inherit}button{cursor:pointer}.wrap{width:min(1080px,92%);margin:auto}.topbar{display:flex;align-items:center;justify-content:space-between;padding:18px 0;gap:12px}.brand{font-weight:900;font-size:1.2rem;letter-spacing:-.04em;color:var(--deep)}.brand span{color:#ec4899}.pill{border:1px solid #f3b9d2;border-radius:999px;background:white;color:var(--deep);padding:9px 14px;font-weight:700}.hero{position:relative;overflow:hidden;text-align:center;border:1px solid #f8d5e5;border-radius:28px;padding:42px 20px 34px;background:radial-gradient(circle at 15% 15%,#fff 0 4%,transparent 30%),linear-gradient(135deg,#fce7f3,#fff0f7 55%,#f3e8ff)}.eyebrow{display:inline-block;background:#fff9;border:1px solid #fff;border-radius:999px;padding:7px 12px;color:#9d174d;font-size:.8rem;font-weight:800}.hero h1{font-size:clamp(2.3rem,8vw,4.6rem);line-height:1.03;letter-spacing:-.065em;margin:17px 0 12px;color:#831843}.hero p{max-width:570px;margin:0 auto;color:#78445e;line-height:1.65}.actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{border:0;border-radius:14px;padding:12px 17px;font-weight:800;transition:transform .15s,filter .15s}.btn:active{transform:scale(.98)}.primary{background:linear-gradient(135deg,#ec4899,#be185d);color:white;box-shadow:0 8px 22px #be185d2b}.secondary{background:#fff;color:#9d174d;border:1px solid #f3bfd6}.tiny-note{font-size:.8rem;color:#946b80;margin-top:15px}.section{padding:36px 0 8px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:16px}.section h2{margin:0;font-size:1.55rem;letter-spacing:-.04em}.section-head p{margin:5px 0 0;color:var(--muted);font-size:.9rem}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.card{border:1px solid var(--line);background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 8px 22px #7f1d3b08}.card-art{min-height:128px;display:grid;place-items:center;font-size:3.2rem;position:relative;overflow:hidden}.card-art:before,.card-art:after{content:"♥";position:absolute;color:#ffffff8c;font-size:2rem;transform:rotate(-20deg)}.card-art:before{top:8px;left:18px}.card-art:after{bottom:5px;right:18px;transform:rotate(20deg)}.art-birthday{background:linear-gradient(135deg,#fbcfe8,#fde68a)}.art-love{background:linear-gradient(135deg,#fda4af,#fce7f3)}.art-letter{background:linear-gradient(135deg,#fecdd3,#f5d0fe)}.art-sorry{background:linear-gradient(135deg,#ddd6fe,#fce7f3)}.art-anniversary{background:linear-gradient(135deg,#f9a8d4,#fbcfe8)}.art-friend{background:linear-gradient(135deg,#bfdbfe,#fbcfe8)}.art-thanks{background:linear-gradient(135deg,#bbf7d0,#fef3c7)}.art-custom{background:linear-gradient(135deg,#e9d5ff,#fbcfe8)}.card-body{padding:14px}.card-body h3{font-size:1rem;margin:0 0 5px}.card-body p{font-size:.83rem;line-height:1.5;color:var(--muted);margin:0 0 13px;min-height:38px}.card-body .btn{width:100%;padding:10px}.builder{margin:26px 0 0;padding:22px;border:1px solid #f2c5da;border-radius:24px;background:#fff;box-shadow:0 14px 40px #9d174d0a}.builder h2{margin:0 0 5px}.builder .sub{margin:0 0 20px;color:var(--muted);font-size:.9rem}.field{display:grid;gap:7px;margin-bottom:14px}.field label{font-size:.88rem;font-weight:800}.field input,.field textarea,.field select{width:100%;border:1px solid #ecc9da;background:#fffafd;border-radius:12px;padding:12px;color:var(--ink);outline:none}.field input:focus,.field textarea:focus,.field select:focus{border-color:#ec4899;box-shadow:0 0 0 3px #ec48991c}.field textarea{min-height:100px;resize:vertical}.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}.preview{margin-top:20px;border-radius:22px;padding:28px 20px;text-align:center;background:linear-gradient(145deg,#fce7f3,#fff1f7,#f3e8ff);border:1px solid #f6c9df;position:relative;overflow:hidden}.preview .bigemoji{font-size:3.5rem}.preview h3{font-size:1.7rem;color:#9d174d;margin:8px 0}.preview .message{white-space:pre-wrap;line-height:1.7;color:#6b2948}.preview .from{margin-top:16px;color:#9d174d;font-weight:800}.preview .hint{font-size:.75rem;color:#9b6a83;margin-top:16px}.result-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:12px}.result-actions .btn{flex:1;min-width:130px}.footer{text-align:center;padding:32px 0 26px;color:#9a7185;font-size:.82rem}.footer b{color:#9d174d}.hidden{display:none!important}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#35152a;color:white;padding:11px 16px;border-radius:999px;font-size:.88rem;box-shadow:0 8px 30px #0002;z-index:10;max-width:90%;text-align:center}.floating{position:fixed;pointer-events:none;z-index:20;animation:floatUp 1.8s ease-out forwards;font-size:1.4rem}@keyframes floatUp{0%{transform:translateY(0) scale(.6);opacity:0}15%{opacity:1}100%{transform:translateY(-170px) rotate(25deg) scale(1.3);opacity:0}}.yes-no{display:flex;justify-content:center;gap:12px;margin-top:18px;flex-wrap:wrap}.yes-no button{min-width:95px}.open-letter{border:1px dashed #db79a6;background:#fff9fc;border-radius:15px;padding:15px;margin:15px auto;max-width:420px;color:#9d174d;font-weight:700}.tiny{font-size:.75rem;color:#9b7185}
+@media(min-width:720px){.cards{grid-template-columns:repeat(4,minmax(0,1fr))}.hero{padding:58px 24px 48px}.card-art{min-height:150px}.builder{padding:28px}.editor-layout{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}.editor-layout .preview-wrap{position:sticky;top:12px}}
+@media(max-width:390px){.two{grid-template-columns:1fr}.hero{padding:32px 15px}.cards{gap:9px}.card-body{padding:11px}.card-body p{font-size:.78rem}}
+</style>
+</head>
+<body>
+<header class="wrap topbar">
+  <div class="brand">💗 LoveCraft <span>Nepal</span></div>
+  <button class="pill" onclick="document.getElementById('builder').scrollIntoView({behavior:'smooth'})">Create a card ✨</button>
+</header>
+<main class="wrap">
+<section class="hero">
+  <span class="eyebrow">A little magic, made by you ✨</span>
+  <h1>Make someone<br>feel <span style="color:#ec4899">special.</span></h1>
+  <p>Create a heartfelt digital card for birthdays, love, apologies, anniversaries and friendship. Personalize it and share your surprise with one link.</p>
+  <div class="actions"><button class="btn primary" onclick="document.getElementById('builder').scrollIntoView({behavior:'smooth'})">Create your surprise 💌</button><button class="btn secondary" onclick="document.getElementById('cards').scrollIntoView({behavior:'smooth'})">Explore cards</button></div>
+  <div class="tiny-note">Free to use · Made with love in Nepal 🇳🇵</div>
+</section>
+
+<section class="section" id="cards">
+ <div class="section-head"><div><h2>Choose your feeling</h2><p>Pick a card and make it yours.</p></div></div>
+ <div class="cards">
+  <article class="card"><div class="card-art art-birthday">🎂🎈</div><div class="card-body"><h3>Birthday Surprise</h3><p>Cake, candles and a message made just for them.</p><button class="btn secondary" onclick="choose('birthday')">Make this card</button></div></article>
+  <article class="card"><div class="card-art art-love">💖🌹</div><div class="card-body"><h3>Love Proposal</h3><p>Ask the big question with a sweet surprise.</p><button class="btn secondary" onclick="choose('proposal')">Make this card</button></div></article>
+  <article class="card"><div class="card-art art-letter">💌✨</div><div class="card-body"><h3>Love Letter</h3><p>Put the words in your heart into a digital letter.</p><button class="btn secondary" onclick="choose('letter')">Make this card</button></div></article>
+  <article class="card"><div class="card-art art-sorry">🥹🫶</div><div class="card-body"><h3>Sorry Card</h3><p>Say sorry sincerely and open a new conversation.</p><button class="btn secondary" onclick="choose('sorry')">Make this card</button></div></article>
+  <article class="card"><div class="card-art art-anniversary">💍💕</div><div class="card-body"><h3>Anniversary</h3><p>Celebrate a special day and your shared memories.</p><button class="btn secondary" onclick="choose('anniversary')">Make this card</button></div></article>
+  <article class="card"><div class="card-art art-friend">🫂🌈</div><div class="card-body"><h3>Friendship</h3><p>Remind your best friend how much they matter.</p><button class="btn secondary" onclick="choose('friendship')">Make this card</button></div></article>
+  <article class="card"><div class="card-art art-thanks">🌷💛</div><div class="card-body"><h3>Thank You</h3><p>Send a little gratitude and a whole lot of warmth.</p><button class="btn secondary" onclick="choose('thanks')">Make this card</button></div></article>
+  <article class="card"><div class="card-art art-custom">🌟🎁</div><div class="card-body"><h3>Just Because</h3><p>No occasion needed. Make an unexpected smile.</p><button class="btn secondary" onclick="choose('custom')">Make this card</button></div></article>
+ </div>
+</section>
+
+<section class="builder" id="builder">
+ <h2>Build your card 💌</h2><p class="sub">Add your details below. Your preview updates as you type.</p>
+ <div class="editor-layout">
+  <div>
+   <div class="field"><label for="kind">Card type</label><select id="kind" onchange="updatePreview()">
+    <option value="birthday">🎂 Birthday Surprise</option><option value="proposal">💖 Love Proposal</option><option value="letter">💌 Love Letter</option><option value="sorry">🥹 Sorry Card</option><option value="anniversary">💍 Anniversary</option><option value="friendship">🫂 Friendship</option><option value="thanks">🌷 Thank You</option><option value="custom">🌟 Just Because</option>
+   </select></div>
+   <div class="two">
+    <div class="field"><label for="from">Your name</label><input id="from" maxlength="60" placeholder="e.g. Sita" oninput="updatePreview()"></div>
+    <div class="field"><label for="to">Their name</label><input id="to" maxlength="60" placeholder="e.g. Ram" oninput="updatePreview()"></div>
+   </div>
+   <div class="field"><label for="headline">Card title</label><input id="headline" maxlength="100" placeholder="A special message for you" oninput="updatePreview()"></div>
+   <div class="field"><label for="message">Your message</label><textarea id="message" maxlength="1500" placeholder="Write something from your heart…" oninput="updatePreview()"></textarea></div>
+   <div class="field"><label for="language">Message style</label><select id="language" onchange="applyStyle()"><option value="english">English</option><option value="nepali">नेपाली</option><option value="roman">Roman Nepali</option></select></div>
+   <button class="btn primary" style="width:100%" onclick="makeShareLink()">Create shareable link 🔗</button>
+   <p class="tiny">Tip: For privacy, don't include passwords, addresses or other sensitive details.</p>
+  </div>
+  <div class="preview-wrap">
+   <div class="preview" id="preview">
+    <div class="bigemoji" id="emoji">💌</div><div id="toLine" class="tiny">A little surprise for you</div><h3 id="previewTitle">A special message for you</h3><div class="message" id="previewMessage">Write something from your heart…</div><div class="from" id="fromLine">With love 💗</div><div id="proposalButtons" class="yes-no hidden"><button class="btn primary" onclick="sayYes()">YES! 💖</button><button class="btn secondary" id="noButton" onclick="moveNo()">No 🙈</button></div><div class="hint">Made with 💗 on LoveCraft Nepal</div>
+   </div>
+   <div class="result-actions"><button class="btn secondary" onclick="celebrate()">Preview animation ✨</button><button class="btn secondary" onclick="shareNative()">Share card ↗</button></div>
+   <div id="shareArea" class="hidden" style="margin-top:14px">
+    <div class="field"><label for="shareUrl">Your card link</label><input id="shareUrl" readonly></div>
+    <button class="btn primary" style="width:100%" onclick="copyLink()">Copy link 📋</button>
+    <p class="tiny">The link stores the card text in the URL. The website itself must be published online before the link works for other people.</p>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+<footer class="wrap footer"><b>LoveCraft Nepal</b> · Make every moment unforgettable ❤️<br><span class="tiny">A free starter project. No account or database required.</span></footer>
+<div id="toast" class="toast hidden" role="status"></div>
+<script>
+const presets={
+ birthday:{emoji:"🎂",title:"Happy Birthday!",message:"Wishing you a day filled with laughter, love and beautiful surprises. May all your dreams come true! 🎈"},
+ proposal:{emoji:"💖",title:"Will you be mine?",message:"You make ordinary days feel magical. I have something important to ask you…"},
+ letter:{emoji:"💌",title:"A letter from my heart",message:"There are so many things I want to tell you, but the most important is this: you mean more to me than words can say. ❤️"},
+ sorry:{emoji:"🥹",title:"I'm truly sorry",message:"I know I hurt you, and I don't want to dismiss your feelings. I'm sorry. When you're ready, I hope we can talk. 🫶"},
+ anniversary:{emoji:"💍",title:"Happy Anniversary!",message:"Every memory with you is a treasure. Thank you for being part of my story. Here's to many more beautiful moments together. 💕"},
+ friendship:{emoji:"🫂",title:"Lucky to have you",message:"Life is better with a friend like you. Thank you for the laughs, the support and all the memories. You're the best! 🌈"},
+ thanks:{emoji:"🌷",title:"Thank you so much",message:"Your kindness means more than you know. Thank you for being thoughtful and making a difference. 💛"},
+ custom:{emoji:"🎁",title:"Just because…",message:"No special occasion. Just a little reminder that someone is thinking of you. ✨"}
+};
+const nepali={
+ birthday:{title:"जन्मदिनको धेरै धेरै शुभकामना!",message:"तिम्रो जीवन खुसी, माया र सफलताले भरियोस्। तिम्रा सबै सुन्दर सपना पूरा होऊन्। 🎂❤️"},
+ proposal:{title:"के तिमी मेरो हुनेछौ?",message:"तिमीसँग हुँदा हरेक पल विशेष लाग्छ। मनमा एउटा कुरा छ—के तिमी मेरो साथ सधैँ दिनेछौ? 💖"},
+ letter:{title:"मनदेखि लेखिएको चिठी",message:"धेरै कुरा भन्न मन छ, तर सबैभन्दा ठूलो कुरा यति हो—तिमी मेरो लागि धेरै विशेष छौ। ❤️"},
+ sorry:{title:"मलाई माफ गर",message:"मेरो कारण तिम्रो मन दुखेकोमा साँच्चै माफी चाहन्छु। तिम्रो भावनाको कदर गर्छु। जब तिमी तयार हुन्छौ, हामी कुरा गरौँला। 🫶"},
+ anniversary:{title:"हाम्रो विशेष दिनको शुभकामना!",message:"तिमीसँग बिताएका हरेक पल मेरा लागि अमूल्य छन्। हाम्रो माया र साथ सधैँ यस्तै रहोस्। 💕"},
+ friendship:{title:"तिमी जस्तो साथी पाउनु भाग्य हो",message:"हाँसो, साथ र सुन्दर सम्झनाहरूका लागि धन्यवाद। तिमी मेरो लागि विशेष साथी हौ। 🫂"},
+ thanks:{title:"धेरै धेरै धन्यवाद",message:"तिम्रो माया र सहयोग मेरो लागि धेरै अर्थपूर्ण छ। मनदेखि धन्यवाद। 🌷"},
+ custom:{title:"यो सानो सरप्राइज तिम्रो लागि",message:"कुनै विशेष कारण होइन—तिमीलाई सम्झिरहेको छु भनेर भन्न मन लाग्यो। ❤️"}
+};
+const roman={
+ birthday:{title:"Janmadinko dherai dherai subhakamana!",message:"Timro jivan khusi, maya ra safaltale bhariyos. Timra sabai sundar sapana pura hun. 🎂❤️"},
+ proposal:{title:"Ke timi mero hunchhau?",message:"Timi sanga huda harek pal special lagchha. Ke timi mero saath sadhai dinechhau? 💖"},
+ letter:{title:"Manko kura",message:"Dherai kura bhanna man chha, tara sabai bhanda thulo kura yeti ho—timi mero lagi dherai special chhau. ❤️"},
+ sorry:{title:"Malai maaf gara",message:"Mero karan timro man dukheko ma sachchai maafi chahanchhu. Timi tayar bhayepachhi hami kura garaunla. 🫶"},
+ anniversary:{title:"Hamro special din ko subhakamana!",message:"Timi sanga bitayeka harek pal mero lagi anmol chhan. Hamro maya ra saath sadhai yestai rahos. 💕"},
+ friendship:{title:"Timi jasto sathi paunu bhagya ho",message:"Haso, saath ra sundar samjhanaharu ko lagi dhanyabad. Timi mero lagi special sathi hau. 🫂"},
+ thanks:{title:"Dherai dherai dhanyabad",message:"Timro maya ra sahayog mero lagi dherai mahatwapurna chha. Manko dekhi dhanyabad. 🌷"},
+ custom:{title:"Yo sano surprise timro lagi",message:"Kunai special karan hoina—timilai samjhirako chhu bhanera bhanna man lagyo. ❤️"}
+};
+const $=id=>document.getElementById(id);
+let toastTimer;
+function notify(msg){$('toast').textContent=msg;$('toast').classList.remove('hidden');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.add('hidden'),2600)}
+function choose(kind){$('kind').value=kind;applyPreset();$('builder').scrollIntoView({behavior:'smooth'});}
+function applyPreset(){const p=presets[$('kind').value];$('headline').value=p.title;$('message').value=p.message;updatePreview()}
+function applyStyle(){const lang=$('language').value;const p=(lang==='nepali'?nepali:lang==='roman'?roman:presets)[$('kind').value];$('headline').value=p.title;$('message').value=p.message;updatePreview()}
+function updatePreview(){
+ const k=$('kind').value,p=presets[k];
+ $('emoji').textContent=p.emoji;
+ $('previewTitle').textContent=$('headline').value.trim()||p.title;
+ $('previewMessage').textContent=$('message').value.trim()||"Write something from your heart…";
+ $('toLine').textContent=$('to').value.trim()?`A special surprise for ${$('to').value.trim()}`:"A little surprise for you";
+ $('fromLine').textContent=$('from').value.trim()?`With love, ${$('from').value.trim()} 💗`:"With love 💗";
+ $('proposalButtons').classList.toggle('hidden',k!=='proposal');
+}
+function data(){return {k:$('kind').value,f:$('from').value,t:$('to').value,h:$('headline').value,m:$('message').value}}
+function encodeCard(d){return btoa(unescape(encodeURIComponent(JSON.stringify(d))))}
+function decodeCard(s){return JSON.parse(decodeURIComponent(escape(atob(s))))}
+function makeShareLink(){
+ const d=data(),base=location.href.split('#')[0].split('?')[0],url=base+'?card='+encodeURIComponent(encodeCard(d));
+ $('shareUrl').value=url;$('shareArea').classList.remove('hidden');
+ if(location.protocol==='file:')notify('पहिले वेबसाइट online publish गर्नुहोस्, त्यसपछि share link चल्छ।');else notify('Card link तयार भयो! Copy गरेर पठाउनुहोस्।');
+}
+async function copyLink(){const v=$('shareUrl').value;if(!v)return;try{await navigator.clipboard.writeText(v);notify('Link copied! अब पठाउन सक्नुहुन्छ।')}catch(e){$('shareUrl').focus();$('shareUrl').select();notify('Link select भयो—Copy गर्नुहोस्।')}}
+async function shareNative(){if(!$('shareUrl').value)makeShareLink();const url=$('shareUrl').value;try{if(navigator.share)await navigator.share({title:$('previewTitle').textContent,text:'A little surprise made for you 💗',url});else await copyLink()}catch(e){}}
+function celebrate(){for(let i=0;i<18;i++){const el=document.createElement('span');el.className='floating';el.textContent=['💖','✨','💕','🌸','💗'][Math.floor(Math.random()*5)];el.style.left=(8+Math.random()*84)+'vw';el.style.bottom=(8+Math.random()*20)+'vh';document.body.appendChild(el);setTimeout(()=>el.remove(),1900)}}
+function sayYes(){notify('Yay! Sending lots of love 💖');celebrate();$('previewTitle').textContent='You made my day! 💖';$('previewMessage').textContent='This is the beginning of something beautiful. ✨'}
+function moveNo(){const b=$('noButton');b.textContent=['Maybe? 🙈','Try again 😜','Are you sure? 💗'][Math.floor(Math.random()*3)];b.style.transform=`translate(${Math.round(Math.random()*55-27)}px,${Math.round(Math.random()*25-12)}px)`;notify('Hehe 🙈')}
+function loadFromUrl(){const params=new URLSearchParams(location.search),s=params.get('card');if(!s)return;try{const d=decodeCard(s);if(!presets[d.k])return;$('kind').value=d.k;$('from').value=d.f||'';$('to').value=d.t||'';$('headline').value=d.h||'';$('message').value=d.m||'';updatePreview();$('builder').scrollIntoView({behavior:'smooth'});notify('Someone made this surprise just for you 💗')}catch(e){notify('यो card link खोल्न सकिएन।')}}
+$('kind').addEventListener('change',applyPreset);
+applyPreset();loadFromUrl();
+</script>
+</body>
+</html>
